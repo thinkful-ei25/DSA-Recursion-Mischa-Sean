@@ -31,3 +31,25 @@ console.log(StringSeperator(" ", "Hello Sean"));
 //"Hello"
 //Else add a new index  
 
+
+
+function stringSeperator(string, seperator){ 
+
+    //base case
+    if (string.length === 0){ 
+        return []; 
+    }
+
+    if (string[0] === seperator){ 
+        //create new index in array
+        //remove the first element in the string
+        //recursive call
+    }
+    else{ 
+        //add first element of the string to the last index of the array
+        //remove the first element in the string
+        //recursive call
+    }
+    
+
+}
